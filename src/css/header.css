@@ -1,0 +1,18 @@
+nav,
+#menu,
+#search,
+.search-field {
+  display: none;
+}
+
+#menu:checked ~ nav {
+  display: block;
+}
+
+#search:checked ~ .search-field {
+  display: block;
+}
+
+header {
+  background: linear-gradient(0.25turn, #fff, 70%, #0487d9);
+}
