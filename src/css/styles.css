@@ -2,3 +2,7 @@
 @import url(variables.css);
 @import url(header.css);
 @import url(responsive_layout.css);
+
+main {
+  margin: var(--margin-main-content);
+}

@@ -16,3 +16,20 @@ nav,
 header {
   background: linear-gradient(0.25turn, #fff, 70%, #0487d9);
 }
+
+.logo {
+  width: 8rem;
+  padding: 1rem;
+}
+
+.brand-name {
+  border-style: solid none;
+  border-color: #0487d9;
+  border-width: thin;
+  margin: 0;
+  padding: 1rem 2rem;
+}
+
+nav {
+  position: absolute;
+}
