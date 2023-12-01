@@ -5,5 +5,11 @@
   --background-color: #fff;
   --background-variation: #cfc7b9;
   --text-color: #000;
+  --font-headings: "Merriweather", Georgia, Cambria, Cochin, Times,
+    "Times New Roman", serif;
+  --font-body-copy: "Open Sans", Arial, Helvetica, "Segoe UI", Tahoma, Geneva,
+    Verdana, sans-serif;
+  --font-accent: "Coming Soon", Arial, Helvetica, "Segoe UI", Tahoma, Geneva,
+    Verdana, cursive, sans-serif;
   --margin-main-content: 0 2rem;
 }

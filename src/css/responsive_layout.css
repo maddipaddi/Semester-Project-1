@@ -1,7 +1,15 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
 .flex-1 {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .flex-item-1 {
