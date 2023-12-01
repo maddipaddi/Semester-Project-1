@@ -6,3 +6,12 @@
 main {
   margin: var(--margin-main-content);
 }
+
+p {
+  font-family: var(--font-body-copy);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}

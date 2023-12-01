@@ -23,6 +23,7 @@ header {
 }
 
 .brand-name {
+  font-family: var(--font-accent);
   border-style: solid none;
   border-color: #0487d9;
   border-width: thin;
@@ -40,4 +41,21 @@ nav,
   gap: 1.5rem;
   padding: 1.5rem;
   font-family: var(--font-body-copy);
+}
+
+nav {
+  background-color: var(--color-primary);
+  top: 11rem;
+  left: 0px;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav li {
+  padding: 2rem;
 }
