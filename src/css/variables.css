@@ -1,9 +1,11 @@
 :root {
   --color-primary: #0487d9;
+  --color-primary-variation: #359ee0;
   --color-secondary: #f25029;
   --color-tertiary: #bb3896;
   --background-color: #fff;
   --background-variation: #cfc7b9;
+  --background-variation-2: #dfdad1;
   --text-color: #000;
   --font-headings: "Merriweather", Georgia, Cambria, Cochin, Times,
     "Times New Roman", serif;
