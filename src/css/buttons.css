@@ -1,0 +1,8 @@
+button {
+  color: var(--background-color);
+  background-color: var(--color-tertiary);
+  border-style: none;
+  font-family: var(--font-body-copy);
+  font-size: 1em;
+  padding: 0 0.5rem;
+}
