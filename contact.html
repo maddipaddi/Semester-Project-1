@@ -25,6 +25,51 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <script
+      src="https://kit.fontawesome.com/070454e239.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="flex-1">
+        <a href="index.html" class="flex-item-1"
+          ><img
+            src="assets/csm_logo.svg"
+            alt="Community Science Museum logo"
+            class="logo"
+        /></a>
+        <div class="flex-1 flex-item-1 menu-items">
+          <form action="./search/">
+            <label for="search" class="flex-center"
+              ><span class="material-symbols-outlined"> search </span
+              >Search</label
+            >
+            <input type="checkbox" id="search" />
+            <div class="search-box">
+              <input type="search" id="search-field" name="search-field" />
+              <button>Go</button>
+            </div>
+          </form>
+          <div>
+            <label for="menu" class="flex-center"
+              ><span class="material-symbols-outlined"> menu </span>Menu</label
+            >
+            <input type="checkbox" id="menu" />
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="exhibitions.html">Exhibitions</a></li>
+                <li><a href="visit.html">Visit us</a></li>
+                <li><a href="get_involved.html">Get Involved</a></li>
+                <li><a href="contact.html" class="current">Contact us</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <p class="brand-name">Community Science Museum</p>
+    </header>
+  </body>
 </html>

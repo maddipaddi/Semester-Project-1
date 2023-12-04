@@ -1,0 +1,35 @@
+footer {
+  background-color: var(--background-variation);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: var(--font-body-copy);
+  font-size: 1rem;
+  margin: var(--margin-main-content);
+  padding: 1rem 0;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.column-1,
+.column-2 {
+  padding: 0.5rem 1rem;
+}
+
+td {
+  padding: 0.75rem 0.25rem;
+}
+
+.emphasis {
+  font-weight: bold;
+}
+
+address {
+  padding: 1rem 0;
+}

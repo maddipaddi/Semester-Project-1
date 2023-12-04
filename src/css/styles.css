@@ -3,6 +3,7 @@
 @import url(header.css);
 @import url(responsive_layout.css);
 @import url(buttons.css);
+@import url(footer.css);
 
 main {
   margin: var(--margin-main-content);
