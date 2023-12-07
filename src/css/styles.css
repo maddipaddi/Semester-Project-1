@@ -1,38 +1,14 @@
 @import url(reset.css);
 @import url(variables.css);
+@import url(universal.css);
 @import url(header.css);
 @import url(responsive_layout.css);
 @import url(buttons.css);
 @import url(footer.css);
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+/*Grid/flexbox layout*/
 
-main {
-  margin: var(--margin-main-content);
-}
-
-p {
-  font-family: var(--font-body-copy);
-}
-
-a {
-  text-decoration: none;
-  color: var(--text-color);
-}
-
-a:hover {
-  text-decoration: underline;
-  font-weight: 600;
-}
-
-img {
-  max-width: 100%;
-}
-
+/*Move these to appropriate sheet when I've figured that out*/
 .decorate-1,
 .decorate-2,
 .decorate-3 {
