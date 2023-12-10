@@ -14,3 +14,42 @@
 .flex-item-1 {
   flex-grow: 1;
 }
+
+/*Grid/flexbox layout*/
+
+.responsive-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "header header header"
+    "welcome . information"
+    "explore explore explore"
+    "news news news"
+    "footer footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+.welcome {
+  grid-area: welcome;
+}
+
+.information {
+  grid-area: information;
+}
+
+.explore {
+  grid-area: explore;
+}
+
+.news {
+  grid-area: news;
+}
+
+footer {
+  grid-area: footer;
+}
