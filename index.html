@@ -30,7 +30,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="responsive-grid">
+  <body>
     <header>
       <div class="flex-1">
         <a href="index.html" class="flex-item-1"
@@ -74,51 +74,53 @@
       <p class="brand-name">Community Science Museum</p>
     </header>
     <main>
-      <section class="welcome">
-        <h1>Welcome</h1>
-        <p>
-          Come join us at the Community Science Museum where we're committed to
-          making science accessible to all.
-        </p>
-        <img
-          src="assets/images/billetto-editorial-334686.jpg"
-          alt="Young boy wearing VR goggles while painting on a canvas."
-        />
-        <a href="about.html">More about us</a>
-      </section>
-      <section class="information">
-        <h1>Visit us</h1>
-        <p>Free Admission</p>
-        <p>Guided tours: 70 NOK</p>
-        <table>
-          <thead>
-            <tr>
-              <th>Open:</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Tuesday - Thursday</td>
-              <td>10:00 - 16:00</td>
-            </tr>
-            <tr>
-              <td>Friday</td>
-              <td>10:00 - 19:00</td>
-            </tr>
-            <tr>
-              <td>Saturday</td>
-              <td>09:00 - 16:00</td>
-            </tr>
-            <tr>
-              <td>Sunday</td>
-              <td>09:00 - 13:00</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="explore">
-        <h2>Explore</h2>
+      <div class="responsive-grid">
         <section>
+          <h1>Welcome</h1>
+          <p>
+            Come join us at the Community Science Museum where we're committed
+            to making science accessible to all.
+          </p>
+          <img
+            src="assets/images/billetto-editorial-334686.jpg"
+            alt="Young boy wearing VR goggles while painting on a canvas."
+          />
+          <a href="about.html">More about us</a>
+        </section>
+        <section>
+          <h1>Visit us</h1>
+          <p>Free Admission</p>
+          <p>Guided tours: 70 NOK</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Open:</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Tuesday - Thursday</td>
+                <td>10:00 - 16:00</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>10:00 - 19:00</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>09:00 - 16:00</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>09:00 - 13:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+      <section class="responsive-grid">
+        <h2>Explore</h2>
+        <section class="col-start-1">
           <h3>For kids</h3>
           <img
             src="assets/images/learn-2405206_1920.jpg"
@@ -184,11 +186,11 @@
             alt="A person operating a vacuum chamber."
           />
         </section>
-        <a href="contact.html">Contact us</a>
+        <a href="contact.html" class="col-start-1">Contact us</a>
       </section>
-      <section class="news">
+      <section class="responsive-grid">
         <h2>News</h2>
-        <section>
+        <section class="col-start-1">
           <h3>Visiting Professor of Aeronautics</h3>
           <p>
             It is our pleasure to announce that Prof Sheila Widnall from the
@@ -229,7 +231,7 @@
             alt="An abstract network structure with interconnected nodes and lines on a soft blue background."
           />
         </section>
-        <a href="visit.html">More information</a>
+        <a href="visit.html" class="col-start-1">More information</a>
       </section>
     </main>
     <footer>
