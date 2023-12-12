@@ -11,7 +11,6 @@ button {
   background-color: var(--color-primary-variation);
   font-family: var(--font-body-copy);
   font-weight: 500;
-  width: fit-content;
   padding: 0.5em 1em;
   margin: 1rem;
 }

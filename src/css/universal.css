@@ -4,12 +4,8 @@ body {
   flex-direction: column;
 }
 
-main {
+.main-content-margin {
   margin: var(--margin-main-content);
-}
-
-p {
-  font-family: var(--font-body-copy);
 }
 
 a {
@@ -24,4 +20,22 @@ a:hover {
 
 img {
   max-width: 100%;
+}
+
+/*Text*/
+
+p {
+  font-family: var(--font-body-copy);
+  line-height: 1.5;
+}
+
+.ff-accent {
+  font-family: var(--font-accent);
+  font-weight: 400;
+}
+
+.bg-heading {
+  background-color: var(--background-variation);
+  padding: 2rem;
+  width: 100%;
 }
