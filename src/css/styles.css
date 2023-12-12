@@ -4,44 +4,6 @@
 @import url(header.css);
 @import url(responsive_layout.css);
 @import url(buttons.css);
+@import url(cards.css);
+@import url(bg-images.css);
 @import url(footer.css);
-
-/*Move these to appropriate sheet when I've figured that out*/
-.decorate-1,
-.decorate-2,
-.decorate-3 {
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.decorate-1 {
-  background-image: url("../../assets/images/ball-1010907_1920.jpg");
-
-  background-position: bottom center;
-  background-size: 100%;
-  min-height: 40vh;
-}
-
-.decorate-content-1 {
-  position: absolute;
-  bottom: 0;
-  left: 20%;
-}
-
-.decorate-2 {
-  background-image: url("../../assets/csm_logo.svg");
-  background-position: top right;
-  background-size: 35%;
-}
-
-.decorate-3 {
-  background-image: url("../../assets/images/open-science-735787.jpg");
-  background-position: top right;
-  background-size: 35%;
-  min-height: 15vh;
-}
-
-.decorate-content-3 {
-  position: absolute;
-  bottom: 0;
-}

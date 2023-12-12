@@ -4,5 +4,20 @@ button {
   border-style: none;
   font-family: var(--font-body-copy);
   font-size: 1em;
-  padding: 0 0.5rem;
+  padding: 0 0.5em;
+}
+
+.button-link {
+  background-color: var(--color-primary-variation);
+  font-family: var(--font-body-copy);
+  font-weight: 500;
+  width: fit-content;
+  padding: 0.5em 1em;
+  margin: 1rem;
+}
+
+.button-link:hover {
+  text-decoration: none;
+  font-weight: 500;
+  background-color: var(--color-primary);
 }

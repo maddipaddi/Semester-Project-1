@@ -1,0 +1,4 @@
+.card {
+  border: solid var(--color-tertiary);
+  margin: 1.5rem 0;
+}
