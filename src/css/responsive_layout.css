@@ -26,7 +26,7 @@
 
 .responsive-grid {
   display: grid;
-  grid-gap: 1.5rem;
+  grid-gap: 4rem;
   grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr));
 }
 
