@@ -22,6 +22,12 @@ img {
   max-width: 100%;
 }
 
+.img-crop {
+  height: clamp(10rem, 22rem, 24rem);
+  width: clamp(16rem, 40rem, 45rem);
+  object-fit: cover;
+}
+
 /*Text*/
 
 p {
