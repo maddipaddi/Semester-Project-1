@@ -1,0 +1,19 @@
+.contact-form {
+  width: max(256px, 80%);
+}
+
+textarea {
+  min-height: 13rem;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+legend,
+input,
+textarea {
+  font-family: var(--font-body-copy);
+  font-size: 100%;
+}

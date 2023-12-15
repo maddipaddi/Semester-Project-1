@@ -30,14 +30,31 @@ img {
 
 /*Text*/
 
-p {
+p,
+.ff-open-sans,
+table {
   font-family: var(--font-body-copy);
   line-height: 1.5;
+}
+
+.ff-open-sans-italic {
+  font-family: var(--font-body-copy);
+  font-weight: 600;
+  font-style: italic;
 }
 
 .ff-accent {
   font-family: var(--font-accent);
   font-weight: 400;
+}
+
+.ff-merriweather {
+  font-family: var(--font-headings);
+}
+
+.ff-merriweather-small {
+  font-family: var(--font-headings);
+  font-style: italic;
 }
 
 .bg-heading {

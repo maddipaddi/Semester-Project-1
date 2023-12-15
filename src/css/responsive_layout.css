@@ -30,6 +30,22 @@
   grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr));
 }
 
+.grid-section {
+  display: grid;
+  justify-items: center;
+  grid-gap: 1rem;
+}
+
+.grid-form {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.grid-button {
+  display: grid;
+  justify-self: center;
+}
+
 .col-start-1 {
   grid-column: 1;
   justify-self: center;

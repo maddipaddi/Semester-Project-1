@@ -73,81 +73,87 @@
       </div>
       <p class="brand-name">Community Science Museum</p>
     </header>
-    <main>
-      <h1>Contact Us</h1>
-      <p>
-        Please use the form below to get in touch. We will reply by email as
-        soon as we can, normally within 1-2 days.
-      </p>
-      <!--Remember to check if it's get or post that's the secure method-->
-      <form action="" method="get">
-        <fieldset>
-          <legend>Name</legend>
-          <label for="name">
-            <input type="text" name="name" id="name" placeholder="Hans Hansen"
-          /></label>
-        </fieldset>
-        <fieldset>
-          <legend>Email</legend>
-          <label for="email">
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="hans.hansen@gmail.com"
-          /></label>
-        </fieldset>
-        <fieldset>
-          <legend>Query</legend>
-          <label for="query">
-            <input
-              type="text"
-              name="query"
-              id="query"
-              placeholder="Hello, I would like more information about..."
-          /></label>
-        </fieldset>
-        <button>Send</button>
-      </form>
-      <p>Phone: 12-345-678</p>
-      <address>1 Discovery Way 9020 Lillehammer Norway</address>
-      <table>
-        <thead>
-          <tr>
-            <th>Hours</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Monday</td>
-            <td>Closed</td>
-          </tr>
-          <tr>
-            <td>Tuesday</td>
-            <td>10:00-16:00</td>
-          </tr>
-          <tr>
-            <td>Wednesday</td>
-            <td>10:00-16:00</td>
-          </tr>
-          <tr>
-            <td>Thursday</td>
-            <td>10:00-16:00</td>
-          </tr>
-          <tr>
-            <td>Friday</td>
-            <td>10:00-19:00</td>
-          </tr>
-          <tr>
-            <td>Saturday</td>
-            <td>09:00-16:00</td>
-          </tr>
-          <tr>
-            <td>Sunday</td>
-            <td>09:00-13:00</td>
-          </tr>
-        </tbody>
-      </table>
+    <main class="main-content-margin">
+      <h1 class="ff-merriweather">Contact Us</h1>
+      <div class="responsive-grid">
+        <div class="grid-section">
+          <p>
+            Please use the form below to get in touch. We will reply by email as
+            soon as we can, normally within 1-2 days.
+          </p>
+          <!--Remember to check if it's get or post that's the secure method-->
+          <form action="" method="get" class="contact-form grid-form">
+            <fieldset>
+              <legend>Name</legend>
+              <label for="name">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Hans Hansen"
+              /></label>
+            </fieldset>
+            <fieldset>
+              <legend>Email</legend>
+              <label for="email">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="hans.hansen@gmail.com"
+              /></label>
+            </fieldset>
+            <fieldset>
+              <legend>Query</legend>
+              <label for="query">
+                <textarea name="query" id="query"> </textarea>
+              </label>
+            </fieldset>
+            <button class="grid-button">Send</button>
+          </form>
+        </div>
+        <div class="grid-section">
+          <p>Phone: 12-345-678</p>
+          <address>1 Discovery Way 9020 Lillehammer Norway</address>
+          <table>
+            <thead>
+              <tr>
+                <th class="ff-merriweather-small">Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>Closed</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>10:00-16:00</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>10:00-16:00</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>10:00-16:00</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>10:00-19:00</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>09:00-16:00</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>09:00-13:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="footer-content">
