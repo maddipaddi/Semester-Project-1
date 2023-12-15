@@ -32,15 +32,27 @@ img {
 
 p,
 .ff-open-sans,
-table {
+table,
+address {
   font-family: var(--font-body-copy);
-  line-height: 1.5;
 }
 
-.ff-open-sans-italic {
-  font-family: var(--font-body-copy);
-  font-weight: 600;
-  font-style: italic;
+p,
+a,
+table,
+address {
+  font-size: clamp(1rem, 1.25vw, 2rem);
+  line-height: clamp(1.5rem, 2rem, 2.5rem);
+}
+
+.ff-open-sans,
+.heading-accent-big,
+.ff-merriweather {
+  font-size: clamp(1.75rem, 2.25vw, 4rem);
+}
+
+.heading-accent-small {
+  font-size: clamp(1.5rem, 2.25vw, 3rem);
 }
 
 .ff-accent {
@@ -54,7 +66,17 @@ table {
 
 .ff-merriweather-small {
   font-family: var(--font-headings);
+}
+
+.ff-open-sans-italic {
+  font-family: var(--font-body-copy);
+  font-weight: 600;
+}
+
+.ff-merriweather-small,
+.ff-open-sans-italic {
   font-style: italic;
+  font-size: clamp(1.5rem, 2vw, 2rem);
 }
 
 .bg-heading {
