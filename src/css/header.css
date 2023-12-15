@@ -15,7 +15,7 @@ nav,
 }
 
 header {
-  background: linear-gradient(0.25turn, #e5f5ff, 60%, #0487d9);
+  background: var(--background-variation);
 }
 
 .logo {
@@ -48,7 +48,7 @@ nav,
 }
 
 nav {
-  top: 10rem;
+  top: 8rem;
 }
 
 nav ul {
@@ -63,7 +63,7 @@ nav li {
 }
 
 .search-box {
-  top: 5.5rem;
+  top: 4rem;
   padding: 1.5rem;
 }
 
