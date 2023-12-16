@@ -8,6 +8,10 @@ body {
   margin: var(--margin-main-content);
 }
 
+.document-content-margin {
+  margin: var(--margin-document-content);
+}
+
 a {
   text-decoration: none;
   color: var(--text-color);
@@ -33,14 +37,16 @@ img {
 p,
 .ff-open-sans,
 table,
-address {
+address,
+ul {
   font-family: var(--font-body-copy);
 }
 
 p,
 a,
 table,
-address {
+address,
+ul {
   font-size: clamp(1rem, 1.25vw, 2rem);
   line-height: clamp(1.5rem, 2rem, 2.5rem);
 }
