@@ -90,3 +90,7 @@ ul {
   padding: 2rem;
   width: 100%;
 }
+
+.italic {
+  font-style: italic;
+}

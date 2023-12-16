@@ -15,13 +15,6 @@
   flex-grow: 1;
 }
 
-.flex-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-
 /*Grid layout*/
 
 .responsive-grid {
@@ -30,20 +23,19 @@
   grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr));
 }
 
-.grid-section {
-  display: grid;
-  justify-items: center;
-  grid-gap: 1rem;
-}
-
+.grid-section,
 .grid-form {
   display: grid;
   grid-gap: 1rem;
 }
 
-.grid-button {
+.grid-section {
+  justify-items: center;
+}
+
+.grid-center {
   display: grid;
-  justify-self: center;
+  justify-items: center;
 }
 
 .col-start-1 {
@@ -54,4 +46,13 @@
 .grid-gap {
   display: grid;
   grid-gap: 2rem;
+}
+
+.grid-display {
+  display: grid;
+}
+
+.visit {
+  display: grid;
+  align-content: center;
 }

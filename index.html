@@ -76,7 +76,7 @@
     </header>
     <main>
       <div class="responsive-grid main-content-margin">
-        <section class="flex-2">
+        <section class="grid-section">
           <h1 class="ff-open-sans">Welcome</h1>
           <p>
             Come join us at the Community Science Museum where we're committed
@@ -88,19 +88,20 @@
           />
           <a href="about.html" class="button-link">More about us</a>
         </section>
-        <section class="card-pink flex-2">
-          <h1 class="ff-accent heading-accent-big">Visit us</h1>
+        <section class="card-pink visit">
+          <h1 class="ff-accent heading-accent-big grid-center">Visit us</h1>
           <div>
-            <p>Free Admission</p>
+          <div>
+            <p class="emphasis">Free Admission</p>
             <p>Guided tours: 70 NOK</p>
           </div>
           <table>
-            <thead>
+            <thead class="grid-display">
               <tr>
-                <th>Open:</th>
+                <th >Open:</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody class="italic">
               <tr>
                 <td>Tuesday - Thursday</td>
                 <td>10:00 - 16:00</td>
@@ -119,10 +120,11 @@
               </tr>
             </tbody>
           </table>
+        </div>
         </section>
       </div>
       <section>
-        <h2 class="ff-merriweather bg-heading">Explore</h2>
+        <h2 class="ff-merriweather bg-heading grid-center">Explore</h2>
         <div class="responsive-grid main-content-margin">
           <article>
             <a href="explore.html#for-kids">
@@ -166,7 +168,7 @@
           </article>
       </section>
       <section>
-        <h2 class="ff-merriweather bg-heading">News</h2>
+        <h2 class="ff-merriweather bg-heading grid-center">News</h2>
         <div class="responsive-grid main-content-margin">
           <article>
             <a href="visit.html#upcoming-event-1">
@@ -212,10 +214,12 @@
               alt="An overview of a museum hall with a statue of an elephant and dimmed lights."
             /></a>
             </article>
-          <a href="visit.html#upcoming-events" class="button-link col-start-1"
-            >More information</a
-          >
         </div>
+        <div class="grid-center">
+        <a href="visit.html#upcoming-events" class="button-link"
+        >More information</a
+      >
+    </div>
       </section>
     </main>
     <footer>
