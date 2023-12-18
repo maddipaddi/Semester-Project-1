@@ -49,11 +49,6 @@
   justify-items: center;
 }
 
-.col-start-1 {
-  grid-column: 1;
-  justify-self: center;
-}
-
 .grid-gap {
   display: grid;
   grid-gap: 2rem;

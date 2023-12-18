@@ -32,13 +32,12 @@ td {
 }
 
 address {
-  padding: 1rem 0;
+  padding: 1rem 0 2rem 0;
 }
 
 .social-icons {
   font-size: 2rem;
-  padding: 2rem;
-  gap: 2rem;
+  padding: 1rem;
 }
 
 .copyright {
