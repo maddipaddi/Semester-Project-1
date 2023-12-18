@@ -32,6 +32,14 @@ img {
   object-fit: cover;
 }
 
+.content-crop-visit {
+  width: max(400px, 45%);
+}
+
+.content-crop-explore {
+  width: min(800px, 100%);
+}
+
 /*Text*/
 
 p,

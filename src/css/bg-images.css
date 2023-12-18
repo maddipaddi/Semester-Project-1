@@ -4,14 +4,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 12rem 0;
-  max-width: 44rem;
 }
 
 .bg-image-young-stars {
   background-color: #eff9fb;
   background-image: url(../../assets/images/science-2799817.jpg);
-  background-position: center;
+  background-position: top;
   background-size: cover;
-  padding: 1rem 2rem 23rem 2.5rem;
-  max-width: 41rem;
+  padding: 0.25rem 2rem 25rem 2rem;
 }
