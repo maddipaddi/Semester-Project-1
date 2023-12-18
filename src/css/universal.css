@@ -8,10 +8,6 @@ body {
   margin: var(--margin-main-content);
 }
 
-.document-content-margin {
-  margin: var(--margin-document-content);
-}
-
 a {
   text-decoration: none;
   color: var(--text-color);
@@ -32,12 +28,12 @@ img {
   object-fit: cover;
 }
 
-.content-crop-visit {
-  width: max(400px, 45%);
+.content-crop-single-column {
+  width: min(800px, 100%);
 }
 
-.content-crop-explore {
-  width: min(800px, 100%);
+.content-crop-two-column {
+  width: max(400px, 45%);
 }
 
 /*Text*/
