@@ -16,7 +16,8 @@ nav,
 
 .logo {
   width: 6.5rem;
-  padding: 1rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
 }
 
 .brand-name {
@@ -36,6 +37,7 @@ nav,
   padding: 1.5rem;
   font-family: var(--font-body-copy);
   font-size: clamp(1rem, 1.25vw, 2rem);
+  margin-right: 1.5rem;
 }
 
 nav,
@@ -47,7 +49,7 @@ nav,
 }
 
 nav {
-  top: 9rem;
+  top: 9.5rem;
 }
 
 nav ul {
@@ -62,7 +64,7 @@ nav li {
 }
 
 .search-box {
-  top: 4rem;
+  top: 5rem;
   padding: 1.5rem;
 }
 
@@ -81,4 +83,5 @@ nav li {
 
 header {
   background-color: var(--background-variation);
+  padding-top: 1rem;
 }

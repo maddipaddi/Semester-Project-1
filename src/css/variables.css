@@ -15,4 +15,5 @@
   --font-accent: "Coming Soon", Arial, Helvetica, "Segoe UI", Tahoma, Geneva,
     Verdana, cursive, sans-serif;
   --margin-main-content: 2rem;
+  --box-shadow-small: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
 }

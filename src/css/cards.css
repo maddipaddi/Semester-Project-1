@@ -1,6 +1,10 @@
+.card-visit-us,
 .card-pink {
   border: solid var(--color-tertiary);
-  padding: 0 0 1rem;
+}
+
+.card-pink {
+  padding: 2rem 2.75rem;
 }
 
 .card-orange {
