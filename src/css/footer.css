@@ -5,11 +5,11 @@ footer {
 
 .footer-content {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: flex-start;
   font-family: var(--font-body-copy);
-  font-size: 1rem;
   margin: var(--margin-main-content);
-  padding: 1rem 0;
 }
 
 .links {
