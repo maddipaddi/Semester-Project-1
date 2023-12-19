@@ -17,6 +17,14 @@
   flex-grow: 1;
 }
 
+/* Welcome section homepage*/
+
+.flex-welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Flex layout */
 
 .flex-layout {
@@ -59,6 +67,9 @@
 }
 
 .visit {
-  display: grid;
-  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }

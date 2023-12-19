@@ -1,15 +1,10 @@
-.card-pink,
-.card-orange {
-  margin: 1.5rem 0;
-  padding: 1rem;
-}
-
 .card-pink {
   border: solid var(--color-tertiary);
-  max-width: 25rem;
-  max-height: 40rem;
+  padding: 0 0 1rem;
 }
 
 .card-orange {
   border: solid thin var(--color-secondary);
+  margin: 1.5rem 0;
+  padding: 1rem;
 }

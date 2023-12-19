@@ -78,3 +78,7 @@ nav li {
 .current {
   text-decoration: underline;
 }
+
+header {
+  background-color: var(--background-variation);
+}
