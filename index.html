@@ -33,43 +33,40 @@
   <body>
     <header>
       <div class="flex-1">
-        <a href="index.html" class="flex-item-1"
-          ><img
+        <a href="index.html" class="flex-item-1">
+          <img
             src="assets/csm_logo.svg"
             alt="Community Science Museum logo"
             class="logo"
-        /></a>
+          />
+        </a>
         <div class="flex-1 flex-item-1 menu-items">
-          <div>
+          <input type="checkbox" id="search-toggle" class="toggle-checkbox" />
+          <label for="search-toggle" class="flex-center">
+            <span class="material-symbols-outlined">search</span> Search
+          </label>
+          <div class="search-box">
             <form action="./search/">
-              <label for="search" class="flex-center"
-                ><span class="material-symbols-outlined"> search </span
-                >Search</label
-              >
-              <input type="checkbox" id="search" />
-              <div class="search-box">
-                <input type="search" id="search-field" name="search-field" />
-                <button>Go</button>
-              </div>
+              <input type="search" id="search-field" name="search-field" />
+              <button type="submit">Go</button>
             </form>
           </div>
-          <div>
-            <label for="menu" class="flex-center"
-              ><span class="material-symbols-outlined"> menu </span>Menu</label
-            >
-            <input type="checkbox" id="menu" />
-            <nav>
-              <ul>
-                <li><a href="index.html" class="current">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="explore.html">Explore</a></li>
-                <li><a href="exhibitions.html">Exhibitions</a></li>
-                <li><a href="visit.html">Visit us</a></li>
-                <li><a href="get_involved.html">Get Involved</a></li>
-                <li><a href="contact.html">Contact us</a></li>
-              </ul>
-            </nav>
-          </div>
+
+          <input type="checkbox" id="menu-toggle" class="toggle-checkbox" />
+          <label for="menu-toggle" class="flex-center">
+            <span class="material-symbols-outlined">menu</span> Menu
+          </label>
+          <nav>
+            <ul>
+              <li><a href="index.html" class="current">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="explore.html">Explore</a></li>
+              <li><a href="exhibitions.html">Exhibitions</a></li>
+              <li><a href="visit.html">Visit us</a></li>
+              <li><a href="get_involved.html">Get Involved</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
       <p class="brand-name">Community Science Museum</p>

@@ -1,17 +1,15 @@
-nav,
-#menu,
-#search,
-.search-box {
+.toggle-checkbox {
   display: none;
 }
 
-#menu:checked ~ nav {
-  display: block;
+.toggle-checkbox + label + .search-box,
+.toggle-checkbox + label + nav {
+  display: none;
 }
 
-#search:checked ~ .search-box {
-  display: flex;
-  justify-content: flex-end;
+.toggle-checkbox:checked + label + .search-box,
+.toggle-checkbox:checked + label + nav {
+  display: block;
 }
 
 .logo {
