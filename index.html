@@ -40,25 +40,21 @@
             class="logo"
         /></a>
         <div class="flex-1 flex-item-1 menu-items">
-          <form action="./search/">
+          <form action="./search/" tabindex="0">
             <label for="search" class="flex-center"
               ><span class="material-symbols-outlined"> search </span
               >Search</label
             >
-            <div tabindex="0">
-              <input type="checkbox" id="search" />
-            </div>
+            <input type="checkbox" id="search" />
             <div class="search-box">
               <input type="search" id="search-field" name="search-field" />
               <button>Go</button>
             </div>
           </form>
-          <label for="menu" class="flex-center"
+          <label for="menu" tabindex="0" class="flex-center"
             ><span class="material-symbols-outlined"> menu </span>Menu</label
           >
-          <div tabindex="0">
-            <input type="checkbox" id="menu" />
-          </div>
+          <input type="checkbox" id="menu" />
           <nav>
             <ul>
               <li><a href="index.html" class="current">Home</a></li>
