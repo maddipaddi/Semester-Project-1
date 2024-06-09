@@ -26,6 +26,7 @@ A visitor should be able to:
 - HTML
 - CSS
 
+***[Live site](https://maddipaddi.github.io/Semester-Project-1/)***
 
 ## Contact
 
